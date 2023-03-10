@@ -135,7 +135,7 @@ p {
 @media (max-width: 576px) {
 
     html {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     #container {
