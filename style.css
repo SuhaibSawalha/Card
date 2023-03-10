@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(192, 215, 223);
+    font-family: 'Genos', sans-serif;
+}
+
+button {
+    font-family: 'Genos', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+#container {
+    border-radius: 10px;
+    width: 40%;
+    height: 60%;
+    margin-left: 30%;
+    margin-top: 10%;
+    box-shadow: 10px 9px 21px -6px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+#topContainer {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#firstPAtTheTopContainer {
+    color: rgb(48, 230, 188);
+    font-size: 1.8rem;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+#secondPAtTheTopContainer {
+    color: rgb(236, 236, 68);
+    font-size: 1.4rem;
+    padding-left: 10%;
+}
+
+#thirdPAtTheTopContainer {
+    color: rgb(115, 115, 110);
+    font-size: 1rem;
+    margin-top: 2%;
+    padding-left: 10%;
+}
+
+#bottomContainer {
+    width: 100%;
+    height: 60%;
+}
+
+#bottomLeftContainer {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(51, 174, 150);
+    vertical-align: top;
+}
+
+#firstPAtTheBottomLeftContainer {
+    color: white;
+    padding-left: 15%;
+    font-size: 1.4rem;
+    padding-top: 10%;
+}
+
+#secondPAtTheBottomLeftContainer {
+    display: inline-block;
+    color: white;
+    padding-left: 15%;
+    font-size: 3rem;
+}
+
+#thirdPAtTheBottomLeftContainer {
+    display: inline-block;
+    color: white;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+#fourthPAtTheBottomLeftContainer {
+    color: white;
+    padding-left: 15%;
+    margin-top: 5%;
+    font-size: 1.1rem;
+}
+
+#buttonAtTheBottomLeftContainer {
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+    height: 17%;
+    font-size: 1.3rem;
+    background-color: rgb(228, 228, 109);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px;
+    cursor: pointer;
+}
+
+#buttonAtTheBottomLeftContainer:hover {
+    background-color: rgb(228, 228, 109, 0.9);
+    transform: scale(1.02);
+}
+
+#bottomRightContainer {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(104, 193, 175);
+    vertical-align: top;
+}
+
+#firstPAtTheTopBottomRightContainer {
+    color: white;
+    padding-left: 15%;
+    padding-top: 10%;
+    font-size: 1.5rem;
+}
+
+#listAtTheTopBottomRightContainer {
+    list-style: none;
+    color: white;
+    padding-left: 15%;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+
+@media (max-width: 576px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    #container {
+        height: 80%;
+    }
+
+    #topContainer {
+        height: 30%;
+    }
+
+    #bottomContainer {
+        height: 70%;
+    }
+
+    #bottomLeftContainer, #bottomRightContainer {
+        width: 100%;
+        height: 50%;
+    }    
+
+}
